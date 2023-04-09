@@ -7,7 +7,7 @@ names and fate simply escape your mind!
 Create a function which will enable you to return the correct wife and correct fate when their number (1-6)
 is entered into the function, in the following format:
 
-Wife number: <wifeNumber>, Wife name: <wifeName>, Wife fate: <wifeFate>
+"Wife number: <wifeNumber>, Wife name: <wifeName>, Wife fate: <wifeFate>"
 
 1 - Catherine of Aragon (Divorced)
 2 - Anne Boleyn (Beheaded)

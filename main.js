@@ -22,5 +22,5 @@ For function arguments other than 1-6, the function should return the message "N
 //👉 Write the function your CodeWarriors will start with below here:
 
 export function whichWife (wifeNumber){
-  // Your code here
+// Your code here
 }

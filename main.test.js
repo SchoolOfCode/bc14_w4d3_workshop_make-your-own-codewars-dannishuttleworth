@@ -55,3 +55,10 @@ test("floating point should return Try again 1-6 only", () => {
     const expected = "Not a number between 1-6, try again";
     expect(actual).toBe(expected);
     });
+
+test("negative should return Try again 1-6 only", () => {
+    const actual = whichWife(-4);
+    const expected = "Not a number between 1-6, try again";
+    expect(actual).toBe(expected);
+    });
+

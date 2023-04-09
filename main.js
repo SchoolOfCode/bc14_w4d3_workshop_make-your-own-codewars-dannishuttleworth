@@ -24,7 +24,7 @@ For function arguments other than 1-6, the function should return the message "N
 export function whichWife (wifeNumber){
     const allWives = ["Catherine of Aragon", "Anne Boleyn", "Jane Seymour", "Anne of Cleves", "Katherine Howard", "Katherine Parr"];
     const fate = ["Divorced", "Beheaded", "Died", "Divorced", "Beheaded", "Survived"];
-     if (wifeNumber <= 6 && wifeNumber !== 0){
+    if (Number.isInteger(wifeNumber) == true && wifeNumber <= 6 && wifeNumber !== 0){
         return `Wife number: ${wifeNumber}, Wife name: ${allWives[wifeNumber-1]}, Wife fate: ${fate[wifeNumber-1]}`
     }
     else {

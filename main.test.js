@@ -42,16 +42,16 @@ test("zero should return Try again 1-6 only", () => {
     const actual = whichWife(0);
     const expected = "Not a number between 1-6, try again";
     expect(actual).toBe(expected);
-});
+    });
 
 test("string should return Try again 1-6 only", () => {
     const actual = whichWife("string");
     const expected = "Not a number between 1-6, try again";
     expect(actual).toBe(expected);
-});
+    });
 
 test("floating point should return Try again 1-6 only", () => {
     const actual = whichWife(0.6);
     const expected = "Not a number between 1-6, try again";
     expect(actual).toBe(expected);
-});
+    });
